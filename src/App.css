@@ -4,12 +4,6 @@
   font-style: italic;
 }
 
-.yesteryear-regular {
-  font-family: "Yesteryear", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   .backdrop {
     width: 100%;
