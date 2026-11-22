@@ -18,7 +18,7 @@ export default function Document(props: ParentProps) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+BE+VLG:wght@100..400&family=Sacramento&family=Style+Script&family=Yesteryear&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
           rel="stylesheet"
         />
         <title>Maple Code</title>
