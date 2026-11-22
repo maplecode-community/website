@@ -7,13 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "oxlint src"
+    "lint": "oxlint src",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
   },
   "license": "MIT",
   "devDependencies": {
     "@solidjs/diagnostics": "^2.0.0",
     "@solidjs/vite-plugin": "^3.0.0",
     "eslint-plugin-solid": "~0.20.0",
+    "oxfmt": "^0.79.0",
     "oxlint": "~1.92.0",
     "typescript": "^7.0.2",
     "vite": "^8.3.8"
