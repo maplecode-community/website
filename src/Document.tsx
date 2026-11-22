@@ -21,7 +21,7 @@ export default function Document(props: ParentProps) {
           href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+BE+VLG:wght@100..400&family=Sacramento&family=Style+Script&family=Yesteryear&display=swap"
           rel="stylesheet"
         />
-        <title>Solid App</title>
+        <title>Maple Code</title>
         <HydrationScript />
       </head>
       <body>{props.children}</body>
