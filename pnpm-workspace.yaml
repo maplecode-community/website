@@ -1,5 +1,5 @@
 packages:
-  - '.'
+  - "."
 
 # pnpm settings for this project (honored even for a single-package project —
 # this file marks the workspace root). The Solid packages release in lockstep
@@ -13,4 +13,4 @@ packages:
 # release and the policy can protect these packages like any other.
 minimumReleaseAgeExclude:
   - solid-js
-  - '@solidjs/*'
+  - "@solidjs/*"
