@@ -1,5 +1,5 @@
-import type { ParentProps } from 'solid-js';
-import { HydrationScript } from '@solidjs/web';
+import type { ParentProps } from "solid-js";
+import { HydrationScript } from "@solidjs/web";
 
 // The document shell (the index.html replacement), picked up by the
 // src/Document.* convention; it must render the full <html> and ships no
@@ -14,8 +14,11 @@ export default function Document(props: ParentProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+BE+VLG:wght@100..400&family=Sacramento&family=Style+Script&family=Yesteryear&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+BE+VLG:wght@100..400&family=Sacramento&family=Style+Script&family=Yesteryear&display=swap"
+          rel="stylesheet"
+        />
         <title>Solid App</title>
         <HydrationScript />
       </head>
