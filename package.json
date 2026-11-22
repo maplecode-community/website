@@ -9,6 +9,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "oxlint src",
+    "typecheck": "tsc --noEmit",
     "format": "oxfmt",
     "format:check": "oxfmt --check"
   },
